@@ -1,0 +1,366 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+.coupon{
+    width: 600px;
+    height: 500px;
+    background-color: green;
+    position: absolute;
+    margin-left: 35%;
+    z-index: 100;
+    margin-top:-214%;
+    display: block;
+}
+.mydark{
+    background-color: rgb(75, 72, 72);
+    color: white;
+}
+.coupon a img{
+    width: 100%;
+    height: 100%;
+}
+.coupon button{
+   position: absolute;
+}
+
+
+.onclick{
+    margin-left: 4%;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: chocolate;
+  }
+
+.first {
+    align-items: center;
+    display: flex;
+    margin: 8px 200px;
+    padding: 13px 0px;
+}
+
+.logo {
+    height: 36px;
+    width: 156px;
+    cursor: inherit;
+}
+
+.search {
+    padding: 11px 31px;
+    font-size: 17px;
+    margin: 0px 31px;
+}
+
+.first a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    font-family: "Mier book";
+}
+
+.left {
+    display: inline-block;
+    box-shadow: 2px 0px 0px 0px #979393;
+    padding-left: 300px;
+    padding-right: 14px;
+    
+   
+}
+
+.middle {
+    display: inline-block;
+    box-shadow: 2px 0px 0px 0px #979393;
+    padding: 6px 14px;
+}
+
+.right {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+#padd {
+    padding: 0px 17px 0px 0px;
+}
+
+.second {
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.second a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    font-family: "Mier book";
+    padding: 20px;
+}
+
+.one {
+    height: 344px;
+    width: 48;
+    margin: 0px 400px;
+    width: 59%;
+}
+
+.rite {
+    display: inline-block;
+    width: 54%;
+    float: left;
+    height: 337px;
+    padding: 32px;
+    background-color: #fff8fa;
+}
+
+.low h2 {
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.est h2 {
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.delivery {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.free {
+    display: inline-block;
+    border-right: 2px solid;
+    padding: 5px;
+}
+
+.cod {
+    display: inline-block;
+    border-right: 2px solid;
+    padding: 5px;
+}
+
+.easyreturns {
+    display: inline-block;
+    padding: 5px;
+}
+
+.playstore {
+    margin-top: 30px;
+}
+
+.playstore a button {
+    background-color: rgb(206, 63, 146);
+    color: white;
+    border: none;
+    padding: 5px 41px;
+    font-size: 29px;
+    border-radius: 8px;
+}
+
+.playstore a button img {
+    padding-right: 14px;
+}
+
+.leim {
+    display: inline-block;
+    float: left;
+
+}
+
+.two {
+    height: 60px;
+    margin: 1%;
+}
+
+.two h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.three {
+    background-image: url(./store.jpeg);
+    height: 550px;
+    margin: 0px 400px;
+    width: 58%;
+    background-repeat: no-repeat;
+}
+
+.collection {
+    display: inline-block;
+    margin-left: 2%;
+    float: left;
+    margin-top: 8%;
+}
+
+.mens {
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.kids{
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.four {
+    background-image: url(./jj.jpeg);
+    background-repeat: no-repeat;
+    height: 550px;
+    margin: 2% 21%;
+    width: 58%;
+}
+.beauty{
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 6%;
+}
+.home{
+    display: inline-block;
+    margin-left: 1%;
+}
+.electronics{
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.button a button{
+    margin: 13px 48px;
+    padding: 11px 26px;
+    border: none;
+    background-color: white;
+
+}
+.five {
+    height: 60px;
+    margin: 1%;
+}
+.five h1{
+    margin-left: 13%;
+    font-weight: 700;
+    font-size: 38px;
+}
+.six {
+    height: 1800px;
+    margin-top:2% ;
+    margin-left: 13%;
+    width: 1400px;
+}
+
+.items{
+    display:inline-block ;
+    margin-left: 3%;
+    float: left;
+    margin-bottom: 2%;
+    height: 406px;
+    width: 300px;
+}
+.items img{
+    width: 295px;
+    height: 250px;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.items a button{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 16px;
+    padding: 6px 20px;
+}
+.items a h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #6e6b6b;
+}
+.items a h3{
+    margin-left: 10px;
+    font-size: medium;
+    margin-top: 20px;
+}
+.footer {
+    height: 250px;
+    margin: 6%;
+    width: 1400px;
+    margin-left: 13%;
+}
+.shop{
+    display: inline-block;
+    padding-left: 20px;
+    width: 28%;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.down{
+    margin-top: 30px;
+    color: #6e6b6b;
+    
+}
+.butt a img {
+    margin-top: 18px;
+    height: 40px;
+    width: 160px;
+
+}
+.link{
+    display: inline-block;
+    width: 18%;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+}
+.link ul {
+    list-style: none;
+}
+.link ul a{
+    text-decoration: none;
+    color:#6e6b6b ;
+    font-size: 22px;
+}
+.link ul li{
+    padding-top: 8px;
+}
+.reachus{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+.reachus a{
+    padding-left: 5%;
+}
+.contact{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.contact p{
+    font-size: 13px;
+    margin-bottom: 0px;
+
+}
+.contact p a{
+    text-decoration: none;
+    color: #6e6b6b;
+}
