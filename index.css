@@ -33,12 +33,66 @@ body{
     color: white;
     background-color: chocolate;
   }
+  .geolocation{
+    display: inline-block;
+  }
+  .location-img {
+    position: absolute;
+    top: 0px;
+  }
+  .logo-location-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .delivering {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: -2px;
+    color: black;
+  }
+  .set-location {
+   
+  
+    position: relative;
+    width: 200px;
+  }
+  .temprature-div{
+    margin-left: 68%;
+  }
+  .span-dropdown-location {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    position: absolute;
+  }
+  .location-delivering-text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .selected-place-span {
+    font-weight: 200;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    /* color: black; */
+    font-family: "Prosto One", cursive;
+    border: none;
+  }
 
 .first {
     align-items: center;
-    display: flex;
+    display: inline-block;
     margin: 8px 200px;
     padding: 13px 0px;
+}
+.div-image{
+    display: inline-block;
+}
+.div-search{
+    display: inline-block;
 }
 
 .logo {
@@ -62,14 +116,34 @@ body{
     line-height: 20px;
     font-family: "Mier book";
 }
+.cont{
+    display: inline-block;
+    width: 35%;
+}
+
 
 .left {
     display: inline-block;
     box-shadow: 2px 0px 0px 0px #979393;
-    padding-left: 300px;
     padding-right: 14px;
-    
-   
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.middle a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.right a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .middle {

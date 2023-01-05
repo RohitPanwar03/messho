@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="mydark">
+<body class="">
     <header class="header">
         <div class="first">
             <div class="div-image item-center">
@@ -20,6 +20,37 @@
             <div class="div-search">
                 <input class="search" type="text" placeholder="Try Saree, Kurti or Search by Product Code">
             </div>
+            <!-- geolocation -->
+            <div class="geolocation">
+            <div class="set-location">
+                <div class="location-delivering-text">
+                  <div>
+                    <img
+                      src="https://sachindranathpandey.github.io/eatsure/image/location.svg"
+                      alt="image"
+                      class="location-img"
+                    />
+                  </div>
+                  <div><span class="delivering">Delivering at...</span></div>
+                </div>
+                <div class="span-dropdown-location">
+                  <!-- <span class="selected-place-span">Select Location</span> -->
+                  <button class="selected-place-span" onclick="geolocation()">Select Location</button>
+                  <img src="./cloudy.svg" class="cloudyimg"/>
+                  
+                </div>
+               
+              </div>
+            <!-- </a> -->
+           <div class="temprature-div hide-temp-div">
+            <img src="./image/whetherimg/cloudy-day-3.svg" alt="">
+            <span class="show-temp-span"></span>
+           
+           </div>
+          </div>
+        </div>
+    </div>
+<div class="cont">
             <div class="left">
                 <a href="doownload.html">Download App</a>
             </div>
@@ -32,6 +63,7 @@
             </div>
             <button class="onclick" onclick="changeMode()">Change Mode</button>
         </div>
+    </div>
         
         <hr>
         <div class="second">
